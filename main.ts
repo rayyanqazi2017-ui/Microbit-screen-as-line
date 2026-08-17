@@ -1,7 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    sprite.turn(Direction.Left, 45)
+})
 input.onButtonPressed(Button.B, function () {
-    let sprite: game.LedSprite = null
     sprite.turn(Direction.Right, 45)
 })
+let sprite: game.LedSprite = null
 basic.showLeds(`
     . . . . .
     . . . . .
