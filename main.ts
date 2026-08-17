@@ -1,3 +1,3 @@
-basic.forever(function () {
-	
-})
+namespace screenMagic {
+    export function lineindex(x: number, y: number)
+}
